@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: dodgerblue;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;  
+    font-size: 70px;
+    color: rgb(249, 199, 0);
+    text-align: center;
+    padding-top: 50px;
+}
+.box{
+    border: 2px solid white;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: white;
+    box-shadow: 3px 3px whitesmoke;
+}
+.game{
+    padding-left: 500px;
+    padding-top: 40px;
+}
+.group{
+    display: flex;
+}
+
+footer{
+    text-align: center;
+    padding-top: 50px;
+}
